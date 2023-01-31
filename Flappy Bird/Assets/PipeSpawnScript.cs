@@ -5,6 +5,8 @@ using UnityEngine;
 public class PipeSpawnScript : MonoBehaviour
 {
     public GameObject pipe;
+    public float spawnRate = 2;
+    private float timer = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,12 @@ public class PipeSpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Instantiate(pipe, transform.position, transform.rotation); //method for spawning new objects
+        if(timer < spawnRate){
+            timer += Time.deltaTime;
+        }
+        else{
+            Instantiate(pipe, transform.position, transform.rotation); //method for spawning new objects
+            timer = 0;
+        }
     }
 }
