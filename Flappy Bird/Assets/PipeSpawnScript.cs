@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PipeMoveScript : MonoBehaviour
+public class PipeSpawnScript : MonoBehaviour
 {
-    public float moveSpeed = 5;
+    public GameObject pipe;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,6 @@ public class PipeMoveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
+        Instantiate(pipe, transform.position, transform.rotation); //method for spawning new objects
     }
 }
