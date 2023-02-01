@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53663064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: -93, z: 0}
+  m_LocalPosition: {x: -43, y: 100, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -431,8 +431,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 3
-    height: 3
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -737,7 +737,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006108011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.2, y: 0.2, z: -0.19201618}
+  m_LocalPosition: {x: 51.3, y: 0.2, z: -0.19201618}
   m_LocalScale: {x: 4.632624, y: 4.632624, z: 4.632624}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -780,6 +780,7 @@ MonoBehaviour:
   flapStrength: 15
   logic: {fileID: 0}
   birdAlive: 1
+  noFlyZone: -13
 --- !u!50 &2088357999
 Rigidbody2D:
   serializedVersion: 4
