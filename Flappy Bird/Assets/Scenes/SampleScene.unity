@@ -133,12 +133,12 @@ GameObject:
   m_Component:
   - component: {fileID: 53663065}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &53663065
 Transform:
   m_ObjectHideFlags: 0
@@ -579,6 +579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   scoreText: {fileID: 326050386}
+  gameOverDistin: {fileID: 53663064}
 --- !u!4 &730245080
 Transform:
   m_ObjectHideFlags: 0
@@ -777,6 +778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 2088357999}
   flapStrength: 15
+  logic: {fileID: 0}
+  birdAlive: 1
 --- !u!50 &2088357999
 Rigidbody2D:
   serializedVersion: 4
