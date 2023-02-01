@@ -18,6 +18,7 @@ This is a classic arcade style game where the player controls a bird that flies 
 2. Open the project in Unity Game Engine
 3. Press the play button to start the game
 4. Use the keyboard(space button) to control the bird
+**ALTERNATIVELY:** _You can build and run it as a desktop using the unity game engine_
 
 ## How to Play
 The bird automatically flies forward, and the player must keep the bird from crashing into pipes by tapping the space bar. Each time the bird passes through a set of pipes, the player scores a point. The game ends when the bird crashes into a pipe or the ground.
