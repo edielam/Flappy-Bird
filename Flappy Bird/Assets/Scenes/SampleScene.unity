@@ -262,7 +262,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: 0
 --- !u!222 &326050387
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 2088357999}
   - component: {fileID: 2088357998}
   - component: {fileID: 2088358003}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BirdObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
