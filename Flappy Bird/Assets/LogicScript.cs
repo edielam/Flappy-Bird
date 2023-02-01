@@ -8,6 +8,7 @@ public class LogicScript : MonoBehaviour
 {
     public int playerScore;
     public Text scoreText;
+    public GameObject gameOverDistin;
 
     [ContextMenu("Increase Score")]
     public void addScore(int addThis)
@@ -19,5 +20,10 @@ public class LogicScript : MonoBehaviour
     public void restartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void gameOver()
+    {
+         gameOverDistin.SetActive(true);
     }
 }
