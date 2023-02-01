@@ -1,6 +1,7 @@
 # Flappy Bird 2D
 A simple 2D clone of the popular mobile game Flappy Bird, built with C# and the Unity game engine.
 
+![Demo](https://github.com/edielam/Flappy-Bird/blob/main/Flappy%20Bird/flappy_pic.png?raw=true)
 ## Introduction
 This is a classic arcade style game where the player controls a bird that flies between pipes. The objective is to score as many points as possible by flying the bird through the pipes without hitting them.
 
