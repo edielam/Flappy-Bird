@@ -24,7 +24,7 @@ public class BirdScript : MonoBehaviour
         }
         if(transform.position.y < noFlyZone)
         {
-            Debug.Log("Bird has fallen");
+            //Debug.Log("Bird has fallen");
             logic.gameOver();
         }
     }
